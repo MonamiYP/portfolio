@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --black: #0B0B0C;
+    --white: #FFFFFF;
+    --pink: #FF5761;
+    font-family: 'Inter', 'Geneva';
+}
+
+html {
+    background-color: var(--black); 
+    color: var(--white);
+}
