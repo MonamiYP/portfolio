@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --black: #0B0B0C;
+    --white: #FFFFFF;
+    --pink: #FF5761;
+    font-family: 'Geneva';
+}
+
+html {
+    background-color: var(--black); 
+    color: var(--white);
+}
